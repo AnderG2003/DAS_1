@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ProyectoDAS_1</string>
+    <string-array name="idiomas_array">
+        <item>Castellano</item>
+        <item>Inglés</item>
+        <item>Euskera</item>
+    </string-array>
+    <string name="welcome_message">Ongi etorri liburutegira</string>
+    <string name="login">Saioa hasi</string>
+    <string name="username">Erabiltzailea</string>
+    <string name="password">Pasahitza</string>
+    <string name="login_button">Saioa hasi</string>
+    <string name="register_button">Erregistratu</string>
+    <string name="continue_button">Saioa hasi gabe jarraitu</string>
+    <string name="new_user">Erabiltzaile berria</string>
+    <string name="new_password">Pasahitza berria</string>
+    <string name="back_to_login">Saioa hastera itzuli</string>
+    <string name="continue_without_registering">Erregistratu gabe jarraitu</string>
+    <string name="see_read">Ikusi irakurriak</string>
+    <string name="see_want_to_read">Ikusi irakurri nahi dituzunak</string>
+    <string name="welcome_text">¡Ongi etorri!</string>
+    <string name="cover_description">Liburuaren azala</string>
+    <string name="title">Izenburua</string>
+    <string name="author">Idazlea</string>
+    <string name="genre">Generoa</string>
+    <string name="summary">Laburpena</string>
+    <string name="price">Prezioa</string>
+    <string name="read">Irakurrita</string>
+    <string name="want_to_read">Irakurri nahi dut</string>
+    <string name="no">Ez</string>
+    <string name="yes">Bai</string>
+    <string name="exit">Irten</string>
+    <string name="download">Deskargatu</string>
+    <string name="prev_password">Azken pasahitza</string>
+    <string name="change_password">Pasahitza aldatu</string>
+    <string name="enter_isbn">Sartu ISBN</string>
+    <string name="enter_title">Sartu izenburua</string>
+    <string name="enter_author">Sartu idazlea</string>
+    <string name="enter_genre">Sartu generoa</string>
+    <string name="enter_summary">Sartu laburpena</string>
+    <string name="enter_price">Sartu prezioa</string>
+    <string name="add">Gehitu</string>
+    <string name="add_book">Liburua gehitu</string>
+    <string name="preferences">Hobespenak</string>
+    <string name="preferences_title">Hobespenak</string>
+    <string name="select_language">Hautatu hizkuntza bat</string>
+    <string name="sort_books_by">Antolatu liburuak</string>
+    <string name="english">Ingelesa</string>
+    <string name="basque">Euskara</string>
+    <string name="spanish">Gaztelania</string>
+    <string name="price_ascending">Prezio goranzkoa</string>
+    <string name="price_descending">Prezio beheranzkoa</string>
+    <string name="title_ascending">Izenburu goranzkoa</string>
+    <string name="title_descending">Izenburu beheranzkoa</string>
+    <string name="save">Gorde</string>
+</resources>

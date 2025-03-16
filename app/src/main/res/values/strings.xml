@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ProyectoDAS_1</string>
+    <string-array name="idiomas_array">
+        <item>Castellano</item>
+        <item>Inglés</item>
+        <item>Euskera</item>
+    </string-array>
+    <string name="welcome_message">Bienvenido a la Biblioteca</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="register_button">Registrarse</string>
+    <string name="continue_button">Continuar sin iniciar sesión</string>
+    <string name="new_user">Nuevo usuario</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="back_to_login">Volver inicio sesión</string>
+    <string name="continue_without_registering">Continuar sin registrarse</string>
+    <string name="see_read">Ver Leídos</string>
+    <string name="see_want_to_read">Ver Quiero Leer</string>
+    <string name="welcome_text">¡Bienvenido!</string>
+    <string name="cover_description">Portada del libro</string>
+    <string name="title">Título</string>
+    <string name="author">Autor</string>
+    <string name="genre">Género</string>
+    <string name="summary">Resumen</string>
+    <string name="price">Precio</string>
+    <string name="read">Leído</string>
+    <string name="want_to_read">Quiero Leer</string>
+    <string name="no">No</string>
+    <string name="yes">Sí</string>
+    <string name="exit">Salir</string>
+    <string name="download">Descargar</string>
+    <string name="prev_password">Última contraseña</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="enter_isbn">Introduce el ISBN</string>
+    <string name="enter_title">Introduce el título</string>
+    <string name="enter_author">Introduce el autor</string>
+    <string name="enter_genre">Introduce el género</string>
+    <string name="enter_summary">Introduce el resumen</string>
+    <string name="enter_price">Introduce el precio</string>
+    <string name="add">Añadir</string>
+    <string name="add_book">Añadir libro</string>
+    <string name="preferences">Preferencias</string>
+    <string name="preferences_title">Preferencias</string>
+    <string name="select_language">Selecciona un idioma</string>
+    <string name="sort_books_by">Ordenar libros por</string>
+    <string name="english">Inglés</string>
+    <string name="basque">Euskera</string>
+    <string name="spanish">Castellano</string>
+    <string name="price_ascending">Precio ascendente</string>
+    <string name="price_descending">Precio descendente</string>
+    <string name="title_ascending">Título ascendente</string>
+    <string name="title_descending">Título descendente</string>
+    <string name="save">Guardar</string>
+</resources>

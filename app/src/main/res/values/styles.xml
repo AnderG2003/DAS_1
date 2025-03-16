@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BotonPastel" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    <style name="TextoPastel">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="EditTextPastel">
+        <item name="android:backgroundTint">@color/colorEditText</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+    </style>
+º
+</resources>

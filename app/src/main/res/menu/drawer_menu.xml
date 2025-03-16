@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_sort_price"
+        android:title="Ordenar por Precio"/>
+    <item
+        android:id="@+id/nav_sort_title"
+        android:title="Ordenar por Título"/>
+    <item
+        android:id="@+id/nav_sort_read"
+        android:title="Ordenar por Leídos"/>
+    <item
+        android:id="@+id/nav_sort_want_to_read"
+        android:title="Ordenar por Quiero Leer"/>
+</menu>

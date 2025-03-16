@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ProyectoDAS_1</string>
+    <string-array name="idiomas_array">
+        <item>Castellano</item>
+        <item>Inglés</item>
+        <item>Euskera</item>
+    </string-array>
+    <string name="welcome_message">Welcome to the Library</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="continue_button">Continue without login</string>
+    <string name="new_user">New user</string>
+    <string name="new_password">New password</string>
+    <string name="back_to_login">Back to login</string>
+    <string name="continue_without_registering">Continue without registering</string>
+    <string name="see_read">See Read</string>
+    <string name="see_want_to_read">See Want to Read</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="cover_description">Book cover</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="genre">Genre</string>
+    <string name="summary">Summary</string>
+    <string name="price">Price</string>
+    <string name="read">Read</string>
+    <string name="want_to_read">Want to Read</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="exit">Exit</string>
+    <string name="download">Download</string>
+    <string name="prev_password">Last password</string>
+    <string name="change_password">Change password</string>
+    <string name="enter_isbn">Enter ISBN</string>
+    <string name="enter_title">Enter title</string>
+    <string name="enter_author">Enter author</string>
+    <string name="enter_genre">Enter genre</string>
+    <string name="enter_summary">Enter summary</string>
+    <string name="enter_price">Enter price</string>
+    <string name="add">Add</string>
+    <string name="add_book">Add Book</string>
+    <string name="preferences">Preferences</string>
+    <string name="preferences_title">Preferences</string>
+    <string name="select_language">Select a language</string>
+    <string name="sort_books_by">Sort books by</string>
+    <string name="english">English</string>
+    <string name="basque">Basque</string>
+    <string name="spanish">Spanish</string>
+    <string name="price_ascending">Price ascending</string>
+    <string name="price_descending">Price descending</string>
+    <string name="title_ascending">Title ascending</string>
+    <string name="title_descending">Title descending</string>
+    <string name="save">Save</string>
+</resources>

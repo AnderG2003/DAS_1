@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9C27B0</color>  <!-- Morado pastel -->
+    <color name="colorPrimaryVariant">#7B1FA2</color> <!-- Morado oscuro -->
+    <color name="colorSecondary">#F48FB1</color> <!-- Rosa pastel -->
+    <color name="colorTertiary">#7986CB</color> <!-- Azul pastel -->
+    <color name="colorBackground">#E1BEE7</color>  <!-- Lila claro -->
+    <color name="colorOnBackground">#4A148C</color> <!-- Morado oscuro -->
+    <color name="colorText">#4A148C</color>  <!-- Morado oscuro para texto -->
+    <color name="colorButton">#BA68C8</color>  <!-- Botón lila pastel -->
+    <color name="colorButtonText">#FFFFFF</color>  <!-- Texto en botones -->
+    <color name="colorEditText">#D8A8E0</color>
+</resources>

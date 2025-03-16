@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Título "Añadir libro" -->
+    <TextView
+        android:id="@+id/tituloAnadirLibro"
+        style="@style/TextoPastel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Añadir libro"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="24dp" />
+
+    <!-- Layout principal de dos columnas -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/columnaIzquierda"
+        android:layout_width="339dp"
+        android:layout_height="313dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@id/columnaDerecha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tituloAnadirLibro"
+        app:layout_constraintWidth_percent="0.48">
+
+        <!-- ISBN -->
+        <TextView
+            android:id="@+id/textISBN"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ISBN"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Título -->
+        <EditText
+            android:id="@+id/editISBN"
+            style="@style/EditTextPastel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Introduce el ISBN"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textISBN" />
+
+        <TextView
+            android:id="@+id/textTitulo"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Título"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editISBN" />
+
+        <EditText
+            android:id="@+id/editTitulo"
+            style="@style/EditTextPastel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Introduce el título"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textTitulo" />
+
+        <!-- Autor -->
+        <TextView
+            android:id="@+id/textAutor"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Autor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTitulo" />
+
+        <EditText
+            android:id="@+id/editAutor"
+            style="@style/EditTextPastel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Introduce el autor"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textAutor" />
+
+        <!-- Botones debajo del autor, más pequeños -->
+
+        <Button
+            android:id="@+id/btnAnadir"
+            style="@style/BotonPastel"
+            android:layout_width="104dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Añadir"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editAutor" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            style="@style/BotonPastel"
+            android:layout_width="104dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="40dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Salir"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/btnAnadir"
+            app:layout_constraintTop_toTopOf="@id/btnAnadir" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Columna derecha -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/columnaDerecha"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/columnaIzquierda"
+        app:layout_constraintTop_toTopOf="@id/columnaIzquierda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.48">
+
+        <!-- Género -->
+        <TextView
+            android:id="@+id/textGenero"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Género"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editGenero"
+            style="@style/EditTextPastel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Introduce el género"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textGenero" />
+
+        <!-- Precio -->
+        <TextView
+            android:id="@+id/textPrecio"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Precio"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editGenero" />
+
+        <EditText
+            android:id="@+id/editPrecio"
+            style="@style/EditTextPastel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Introduce el precio"
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textPrecio" />
+
+        <!-- Resumen debajo del precio - extendido para ocupar todo el espacio restante -->
+        <TextView
+            android:id="@+id/textResumen"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Resumen"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editPrecio" />
+
+        <EditText
+            android:id="@+id/editResumen"
+            style="@style/EditTextPastel"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="top|start"
+            android:hint="Introduce el resumen del libro."
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            android:inputType="textMultiLine"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textResumen" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

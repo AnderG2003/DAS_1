@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <!-- Título de Preferencias -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        style="@style/TextoPastel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preferencias"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="28dp" />
+
+    <!-- Grupo de RadioButtons para el idioma -->
+    <TextView
+        android:id="@+id/txtIdioma"
+        style="@style/TextoPastel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona un idioma"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/txtTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupIdioma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/txtIdioma"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/radioIngles"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inglés" />
+
+        <RadioButton
+            android:id="@+id/radioEuskera"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Euskera" />
+
+        <RadioButton
+            android:id="@+id/radioCastellano"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Castellano" />
+    </RadioGroup>
+
+    <!-- Grupo de RadioButtons para ordenar los libros -->
+    <TextView
+        android:id="@+id/txtOrden"
+        style="@style/TextoPastel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordenar libros por"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/radioGroupIdioma"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupOrden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/txtOrden"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/radioPrecioAsc"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio ascendente" />
+
+        <RadioButton
+            android:id="@+id/radioPrecioDesc"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio descendente" />
+
+        <RadioButton
+            android:id="@+id/radioTituloAsc"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título ascendente" />
+
+        <RadioButton
+            android:id="@+id/radioTituloDesc"
+            style="@style/TextoPastel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título descendente" />
+    </RadioGroup>
+
+    <!-- Botones de Guardar y Salir -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/radioGroupOrden"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@+id/btnGuardar"
+            style="@style/BotonPastel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Guardar"
+            android:textAllCaps="false"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            style="@style/BotonPastel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Salir"
+            android:textAllCaps="false"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
